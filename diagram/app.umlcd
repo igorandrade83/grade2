@@ -1266,6 +1266,542 @@
         }
       },
       "queries": []
+    },
+    {
+      "type": "uml.Class",
+      "attrs": {
+        "rect": {
+          "width": 235,
+          "stroke": "yellow",
+          "stroke-width": 2
+        },
+        ".uml-class-name-rect": {
+          "stroke": "#C2C2C2",
+          "stroke-width": 1,
+          "fill": "#F0F0F0",
+          "height": 50,
+          "transform": "translate(0,0)"
+        },
+        ".uml-class-attrs-rect": {
+          "stroke": "#C2C2C2",
+          "stroke-width": 1,
+          "fill": "#F0F0F0",
+          "height": 70,
+          "transform": "translate(0,50)"
+        },
+        ".uml-class-methods-rect": {
+          "stroke": "#C2C2C2",
+          "stroke-width": 1,
+          "fill": "#F0F0F0",
+          "height": 30,
+          "transform": "translate(0,120)"
+        },
+        ".uml-class-name-text": {
+          "ref": ".uml-class-name-rect",
+          "ref-y": 0.5,
+          "ref-x": 0.5,
+          "text-anchor": "middle",
+          "y-alignment": "middle",
+          "fill": "#000",
+          "font-size": 12,
+          "font-family": "Arial",
+          "text": "Filme",
+          "font-weight": "bold"
+        },
+        ".uml-class-attrs-text": {
+          "ref": ".uml-class-attrs-rect",
+          "ref-y": 15,
+          "ref-x": 15,
+          "fill": "#666",
+          "font-size": 11,
+          "font-family": "Arial",
+          "text": "id\nf_nome\n"
+        },
+        ".uml-class-attrs-value": {
+          "ref": ".uml-class-attrs-rect",
+          "ref-y": 15,
+          "ref-x": 71.6875,
+          "fill": "#0066FF",
+          "font-size": 11,
+          "font-family": "Arial",
+          "text": "Texto\nTexto\n"
+        },
+        ".uml-class-methods-text": {
+          "ref": ".uml-class-methods-rect",
+          "ref-y": 15,
+          "ref-x": 15,
+          "fill": "#0066FF",
+          "font-size": 11,
+          "font-family": "Arial",
+          "text": ""
+        },
+        ".": {
+          "fill": "#ffffff",
+          "stroke": "none"
+        }
+      },
+      "name": "Filme",
+      "attributes": [
+        "id:java.lang.String",
+        "f_nome:java.lang.String"
+      ],
+      "methods": [],
+      "position": {
+        "x": 926,
+        "y": 24
+      },
+      "size": {
+        "width": 115.96875,
+        "height": 107.86979293823242
+      },
+      "angle": 0,
+      "realName": "",
+      "role": "Auto",
+      "generateView": "Auto",
+      "isRest": "true",
+      "id": "414ccc90-baa2-4e05-86e8-3fc3a1ce628d",
+      "modelType": "Table",
+      "fields": [
+        {
+          "name": "id",
+          "type": "java.lang.String",
+          "dbName": "id",
+          "dbLength": "",
+          "dbPrecision": "",
+          "dbScale": "",
+          "dbDefaultValue": "UUID.randomUUID().toString().toUpperCase()",
+          "label": "Id",
+          "mask": "",
+          "isPrimaryKey": true,
+          "isUniqueKey": false,
+          "isNullable": false,
+          "pkType": "UUID",
+          "multitenantContext": "",
+          "jsonIgnore": false,
+          "isTransient": false,
+          "isInsertable": true,
+          "isUpdatable": true,
+          "isEncryption": false,
+          "referencedColumnName": "",
+          "isSearchable": false
+        },
+        {
+          "name": "f_nome",
+          "type": "java.lang.String",
+          "dbName": "f_nome",
+          "dbLength": "",
+          "dbPrecision": "",
+          "dbScale": "",
+          "dbDefaultValue": "",
+          "label": "F _nome",
+          "mask": "",
+          "isPrimaryKey": false,
+          "isUniqueKey": false,
+          "isNullable": true,
+          "pkType": "",
+          "multitenantContext": "",
+          "jsonIgnore": false,
+          "isTransient": false,
+          "isInsertable": true,
+          "isUpdatable": true,
+          "isEncryption": false,
+          "referencedColumnName": "",
+          "isSearchable": false
+        }
+      ],
+      "runtimeClass": "cronos.widgets.joint.uml.Class",
+      "z": 19,
+      "queries": []
+    },
+    {
+      "type": "uml.Class",
+      "attrs": {
+        "rect": {
+          "width": 235,
+          "stroke": "yellow",
+          "stroke-width": 2
+        },
+        ".uml-class-name-rect": {
+          "stroke": "#C2C2C2",
+          "stroke-width": 1,
+          "fill": "#F0F0F0",
+          "height": 50,
+          "transform": "translate(0,0)"
+        },
+        ".uml-class-attrs-rect": {
+          "stroke": "#C2C2C2",
+          "stroke-width": 1,
+          "fill": "#F0F0F0",
+          "height": 70,
+          "transform": "translate(0,50)"
+        },
+        ".uml-class-methods-rect": {
+          "stroke": "#C2C2C2",
+          "stroke-width": 1,
+          "fill": "#F0F0F0",
+          "height": 30,
+          "transform": "translate(0,120)"
+        },
+        ".uml-class-name-text": {
+          "ref": ".uml-class-name-rect",
+          "ref-y": 0.5,
+          "ref-x": 0.5,
+          "text-anchor": "middle",
+          "y-alignment": "middle",
+          "fill": "#000",
+          "font-size": 12,
+          "font-family": "Arial",
+          "text": "Ator",
+          "font-weight": "bold"
+        },
+        ".uml-class-attrs-text": {
+          "ref": ".uml-class-attrs-rect",
+          "ref-y": 15,
+          "ref-x": 15,
+          "fill": "#666",
+          "font-size": 11,
+          "font-family": "Arial",
+          "text": "id\nA_nome\n"
+        },
+        ".uml-class-attrs-value": {
+          "ref": ".uml-class-attrs-rect",
+          "ref-y": 15,
+          "ref-x": 75.96875,
+          "fill": "#0066FF",
+          "font-size": 11,
+          "font-family": "Arial",
+          "text": "Texto\nTexto\n"
+        },
+        ".uml-class-methods-text": {
+          "ref": ".uml-class-methods-rect",
+          "ref-y": 15,
+          "ref-x": 15,
+          "fill": "#0066FF",
+          "font-size": 11,
+          "font-family": "Arial",
+          "text": ""
+        },
+        ".": {
+          "fill": "#ffffff",
+          "stroke": "none"
+        }
+      },
+      "name": "Ator",
+      "attributes": [
+        "id:java.lang.String",
+        "A_nome:java.lang.String"
+      ],
+      "methods": [],
+      "position": {
+        "x": 920,
+        "y": 412
+      },
+      "size": {
+        "width": 120.25,
+        "height": 107.86979293823242
+      },
+      "angle": 0,
+      "realName": "",
+      "role": "Auto",
+      "generateView": "Auto",
+      "isRest": "true",
+      "id": "ad9004df-a21d-4956-85ca-a816c9cc6e1c",
+      "modelType": "Table",
+      "fields": [
+        {
+          "name": "id",
+          "type": "java.lang.String",
+          "dbName": "id",
+          "dbLength": "",
+          "dbPrecision": "",
+          "dbScale": "",
+          "dbDefaultValue": "UUID.randomUUID().toString().toUpperCase()",
+          "label": "Id",
+          "mask": "",
+          "isPrimaryKey": true,
+          "isUniqueKey": false,
+          "isNullable": false,
+          "pkType": "UUID",
+          "multitenantContext": "",
+          "jsonIgnore": false,
+          "isTransient": false,
+          "isInsertable": true,
+          "isUpdatable": true,
+          "isEncryption": false,
+          "referencedColumnName": "",
+          "isSearchable": false
+        },
+        {
+          "name": "A_nome",
+          "type": "java.lang.String",
+          "dbName": "A_nome",
+          "dbLength": "",
+          "dbPrecision": "",
+          "dbScale": "",
+          "dbDefaultValue": "",
+          "label": "A _nome",
+          "mask": "",
+          "isPrimaryKey": false,
+          "isUniqueKey": false,
+          "isNullable": true,
+          "pkType": "",
+          "multitenantContext": "",
+          "jsonIgnore": false,
+          "isTransient": false,
+          "isInsertable": true,
+          "isUpdatable": true,
+          "isEncryption": false,
+          "referencedColumnName": "",
+          "isSearchable": false
+        }
+      ],
+      "runtimeClass": "cronos.widgets.joint.uml.Class",
+      "z": 20,
+      "queries": []
+    },
+    {
+      "type": "uml.Class",
+      "attrs": {
+        "rect": {
+          "width": 235,
+          "stroke": "yellow",
+          "stroke-width": 2
+        },
+        ".uml-class-name-rect": {
+          "stroke": "#C2C2C2",
+          "stroke-width": 1,
+          "fill": "#fffec0",
+          "height": 50,
+          "transform": "translate(0,0)"
+        },
+        ".uml-class-attrs-rect": {
+          "stroke": "#C2C2C2",
+          "stroke-width": 1,
+          "fill": "#fffec0",
+          "height": 90,
+          "transform": "translate(0,50)"
+        },
+        ".uml-class-methods-rect": {
+          "stroke": "#C2C2C2",
+          "stroke-width": 1,
+          "fill": "#fffec0",
+          "height": 30,
+          "transform": "translate(0,140)"
+        },
+        ".uml-class-name-text": {
+          "ref": ".uml-class-name-rect",
+          "ref-y": 0.5,
+          "ref-x": 0.5,
+          "text-anchor": "middle",
+          "y-alignment": "middle",
+          "fill": "#000",
+          "font-size": 12,
+          "font-family": "Arial",
+          "text": "FilmeAtor",
+          "font-weight": "bold"
+        },
+        ".uml-class-attrs-text": {
+          "ref": ".uml-class-attrs-rect",
+          "ref-y": 15,
+          "ref-x": 15,
+          "fill": "#000",
+          "font-size": 11,
+          "font-family": "Arial",
+          "text": "id\nfilme\nator\n"
+        },
+        ".uml-class-attrs-value": {
+          "ref": ".uml-class-attrs-rect",
+          "ref-y": 15,
+          "ref-x": 63.453125,
+          "fill": "#0066FF",
+          "font-size": 11,
+          "font-family": "Arial",
+          "text": "Texto\nFilme\nAtor\n"
+        },
+        ".uml-class-methods-text": {
+          "ref": ".uml-class-methods-rect",
+          "ref-y": 15,
+          "ref-x": 15,
+          "fill": "#0066FF",
+          "font-size": 11,
+          "font-family": "Arial",
+          "text": ""
+        },
+        ".": {
+          "fill": "#ffffff",
+          "stroke": "none"
+        }
+      },
+      "name": "FilmeAtor",
+      "attributes": [
+        "id:java.lang.String",
+        "filme:Filme",
+        "ator:Ator"
+      ],
+      "methods": [],
+      "position": {
+        "x": 932,
+        "y": 190
+      },
+      "size": {
+        "width": 108.328125,
+        "height": 118.67371368408203
+      },
+      "angle": 0,
+      "realName": "",
+      "role": "AssociationClass",
+      "generateView": "Auto",
+      "isRest": "true",
+      "id": "3422abd8-a690-4b53-9601-b66e60e9f49f",
+      "modelType": "Table",
+      "fields": [
+        {
+          "name": "id",
+          "type": "java.lang.String",
+          "dbName": "id",
+          "label": "",
+          "mask": "",
+          "isPrimaryKey": true,
+          "isUniqueKey": false,
+          "isNullable": false,
+          "multitenantContext": "",
+          "pkType": "UUID",
+          "isIgnore": false,
+          "isTransien": false,
+          "isInsertable": true,
+          "isUpdatable": true,
+          "isEncryption": false,
+          "referencedColumnName": "",
+          "isSearchable": false
+        },
+        {
+          "name": "filme",
+          "type": "Filme",
+          "dbName": "fk_filme",
+          "label": "",
+          "mask": "",
+          "isPrimaryKey": false,
+          "isUniqueKey": false,
+          "isNullable": true,
+          "multitenantContext": "",
+          "pkType": "",
+          "isIgnore": false,
+          "isTransien": false,
+          "isInsertable": true,
+          "isUpdatable": true,
+          "isEncryption": false,
+          "referencedColumnName": "",
+          "isSearchable": false
+        },
+        {
+          "name": "ator",
+          "type": "Ator",
+          "dbName": "fk_ator",
+          "label": "",
+          "mask": "",
+          "isPrimaryKey": false,
+          "isUniqueKey": false,
+          "isNullable": true,
+          "multitenantContext": "",
+          "pkType": "",
+          "isIgnore": false,
+          "isTransien": false,
+          "isInsertable": true,
+          "isUpdatable": true,
+          "isEncryption": false,
+          "referencedColumnName": "",
+          "isSearchable": false
+        }
+      ],
+      "runtimeClass": "cronos.widgets.joint.uml.Class",
+      "queries": [],
+      "z": 21
+    },
+    {
+      "type": "uml.Composition",
+      "relationFields": [
+        "filme:target"
+      ],
+      "associationType": "Association",
+      "id": "99175140-4521-4440-9d04-dccfae2453c4",
+      "runtimeClass": "cronos.widgets.joint.arrow.OneToMany",
+      "target": {
+        "id": "3422abd8-a690-4b53-9601-b66e60e9f49f"
+      },
+      "source": {
+        "id": "414ccc90-baa2-4e05-86e8-3fc3a1ce628d"
+      },
+      "labels": [
+        {
+          "position": 0.9,
+          "attrs": {
+            "rect": {
+              "fill": "transparent"
+            },
+            "text": {
+              "text": "*",
+              "font-family": "Arial",
+              "font-size": "12px",
+              "fill": "#cecece"
+            }
+          }
+        }
+      ],
+      "z": 22,
+      "attrs": {
+        ".marker-target": {
+          "d": "",
+          "fill": ""
+        },
+        ".marker-source": {
+          "d": "M 40 10 L 20 20 L 0 10 L 20 0 z",
+          "fill": "#cecece"
+        }
+      },
+      "queries": []
+    },
+    {
+      "type": "uml.Composition",
+      "relationFields": [
+        "ator:target"
+      ],
+      "associationType": "Association",
+      "id": "3044ac3d-1a41-40a2-9554-20343f8ed7f4",
+      "runtimeClass": "cronos.widgets.joint.arrow.OneToMany",
+      "target": {
+        "id": "3422abd8-a690-4b53-9601-b66e60e9f49f"
+      },
+      "source": {
+        "id": "ad9004df-a21d-4956-85ca-a816c9cc6e1c"
+      },
+      "labels": [
+        {
+          "position": 0.9,
+          "attrs": {
+            "rect": {
+              "fill": "transparent"
+            },
+            "text": {
+              "text": "*",
+              "font-family": "Arial",
+              "font-size": "12px",
+              "fill": "#cecece"
+            }
+          }
+        }
+      ],
+      "z": 23,
+      "attrs": {
+        ".marker-target": {
+          "d": "",
+          "fill": ""
+        },
+        ".marker-source": {
+          "d": "M 40 10 L 20 20 L 0 10 L 20 0 z",
+          "fill": "#cecece"
+        }
+      },
+      "queries": []
     }
   ],
   "selectedGroup": "1d7f906f-a526-482d-aaf4-08d227ae8c18",
@@ -1282,11 +1818,14 @@
       "name": "",
       "id": "1d7f906f-a526-482d-aaf4-08d227ae8c18",
       "cells": [
+        "ad9004df-a21d-4956-85ca-a816c9cc6e1c",
         "d2e50f97-0b9e-4037-94ba-af64568af247",
+        "414ccc90-baa2-4e05-86e8-3fc3a1ce628d",
         "1df87f56-c5ba-47f5-8e68-82931f49b989",
         "3d550303-cdc6-4b73-8cda-2082736b4c11",
         "d92238a3-a37d-4cc6-a543-d0687dc207cd",
         "d3a4df1b-40e2-4f86-a5c4-0b8b794ea1be",
+        "3422abd8-a690-4b53-9601-b66e60e9f49f",
         "6477b66e-580f-4369-ab5c-44532f5fc273"
       ]
     }

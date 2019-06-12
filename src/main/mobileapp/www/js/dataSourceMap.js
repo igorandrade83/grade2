@@ -1,9 +1,13 @@
 window.dataSourceMap = window.dataSourceMap || [];
 window.dataSourceMap["app.query917129"] = { customId: "query917129", serviceUrl: "api/cronapi/query/query917129/", serviceUrlODATA: "/api/cronapi/odata/v2/app/query917129" };
-window.dataSourceMap["app.device"] = { customId: "device", serviceUrl: "api/cronapi/query/1jy88nt41afza/", serviceUrlODATA: "/api/cronapi/odata/v2/app/device" };
+window.dataSourceMap["app.Filme"] = { customId: "app.entity.Filme", serviceUrl: "api/cronapi/crud/app.entity.Filme", serviceUrlODATA: "/api/cronapi/odata/v2/app/Filme" };
 window.dataSourceMap["app.User"] = { customId: "app.entity.User", serviceUrl: "api/cronapi/crud/app.entity.User", serviceUrlODATA: "/api/cronapi/odata/v2/app/User" };
+window.dataSourceMap["app.query402522"] = { customId: "query402522", serviceUrl: "api/cronapi/odata/v2/query402522/", serviceUrlODATA: "/api/cronapi/odata/v2/app/query402522" };
+window.dataSourceMap["app.Ator"] = { customId: "app.entity.Ator", serviceUrl: "api/cronapi/crud/app.entity.Ator", serviceUrlODATA: "/api/cronapi/odata/v2/app/Ator" };
+window.dataSourceMap["app.device"] = { customId: "device", serviceUrl: "api/cronapi/query/1jy88nt41afza/", serviceUrlODATA: "/api/cronapi/odata/v2/app/device" };
 window.dataSourceMap["app.auth"] = { customId: "auth", serviceUrl: "api/cronapi/query/auth/", serviceUrlODATA: "/api/cronapi/odata/v2/app/auth" };
 window.dataSourceMap["app.roles"] = { customId: "roles", serviceUrl: "api/cronapi/query/roles/", serviceUrlODATA: "/api/cronapi/odata/v2/app/roles" };
+window.dataSourceMap["app.FilmeAtor"] = { customId: "app.entity.FilmeAtor", serviceUrl: "api/cronapi/crud/app.entity.FilmeAtor", serviceUrlODATA: "/api/cronapi/odata/v2/app/FilmeAtor" };
 window.dataSourceMap["app.Device"] = { customId: "app.entity.Device", serviceUrl: "api/cronapi/crud/app.entity.Device", serviceUrlODATA: "/api/cronapi/odata/v2/app/Device" };
 window.dataSourceMap["app.reserva"] = { customId: "app.entity.reserva", serviceUrl: "api/cronapi/crud/app.entity.reserva", serviceUrlODATA: "/api/cronapi/odata/v2/app/reserva" };
 window.dataSourceMap["app.estado"] = { customId: "app.entity.estado", serviceUrl: "api/cronapi/crud/app.entity.estado", serviceUrlODATA: "/api/cronapi/odata/v2/app/estado" };

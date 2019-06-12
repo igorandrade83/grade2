@@ -194,5 +194,57 @@
     "calcFieldsProperties": {},
     "errorHandles": {},
     "serviceUrl": "api/cronapi/query/query917129/"
+  },
+  "query402522": {
+    "customId": "query402522",
+    "queryName": "FApersonalizada",
+    "sourceType": "entityFullName",
+    "entitySimpleName": "FilmeAtor",
+    "entityFullName": "app.entity.FilmeAtor",
+    "query": {
+      "isValid": true,
+      "rulesEntity": [
+        {
+          "entity": "FilmeAtor",
+          "alias": "f",
+          "namespace": "app.entity.FilmeAtor"
+        }
+      ],
+      "rulesSelect": [
+        {
+          "func": "get",
+          "field": "f"
+        }
+      ],
+      "rulesGroupBy": [],
+      "rulesHaving": [],
+      "rulesOrderBy": [],
+      "rules": {
+        "condition": "AND",
+        "not": false,
+        "valid": true,
+        "rules": []
+      }
+    },
+    "queryParamsValues": [],
+    "verbs": {
+      "GET": true,
+      "POST": true,
+      "PUT": true,
+      "DELETE": true,
+      "FILTER": true,
+      "COUNT": true
+    },
+    "events": {},
+    "defaultValues": {
+      "ator": "\"C6A5B99B-3E15-4843-86C9-1F4BC4E41795\""
+    },
+    "defaultValuesProperties": {},
+    "security": {},
+    "calcFields": {},
+    "calcFieldsSecurity": {},
+    "calcFieldsProperties": {},
+    "errorHandles": {},
+    "serviceUrl": "api/cronapi/odata/v2/query402522/"
   }
 }

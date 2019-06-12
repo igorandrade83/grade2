@@ -1,6 +1,6 @@
 {
   "name": "cronapp-framework-js",
-  "version": "2.2.10",
+  "version": "2.2.11",
   "homepage": "https://github.com/technecloud/cronapp-framework-js",
   "authors": [
     "Techne Engenharia e Sistemas <contato@techne.com.br>"
@@ -45,13 +45,14 @@
   "resolutions": {
     "angular": "1.5.9"
   },
-  "_release": "2.2.10",
+  "_release": "2.2.11",
   "_resolution": {
     "type": "version",
-    "tag": "2.2.10",
-    "commit": "95dc79d595648e907adc03937d41a0ea54cd84e0"
+    "tag": "2.2.11",
+    "commit": "e0d020ad38a84386f07c321d9a3c78f98b66b97e"
   },
   "_source": "https://github.com/technecloud/cronapp-framework-js.git",
-  "_target": "2.2.10",
-  "_originalSource": "cronapp-framework-js"
+  "_target": "2.2.11",
+  "_originalSource": "cronapp-framework-js",
+  "_direct": true
 }
